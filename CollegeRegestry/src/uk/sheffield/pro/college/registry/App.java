@@ -1,10 +1,7 @@
 package uk.sheffield.pro.college.registry;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 import java.sql.*;
 
 public class App {
@@ -33,10 +30,13 @@ public class App {
     private JTextField UserField;
     private JPasswordField PassField;
     private JButton LOGINButton;
+    private JButton Nextbutton;
+    private JButton previousButton;
+    private JLabel NationalityRadio;
     private Connection conn;
-
+        public int radio;
     private static College college;
-
+    public ResultSet resultSet;
     public App() {
         addStudentButton.addActionListener(new ActionListener() {
             @Override
@@ -54,8 +54,9 @@ public class App {
                         Statement statement = conn.createStatement();
                         String sql = "INSERT INTO `student` (`id`, `Name`, `Surname`, `Gender`, `Nationality`, `Programme`, `Course`, `Pathway`) VALUES (NULL, '"+nameTextField.getText()+"', '"+surnameTexField.getText()+"', '"+genderTextField.getText()+"', '"+nationalityTextField.getText()+"', '"+programmeTextField.getText()+"', '"+courseTextField.getText()+"', '"+pathwayTextField.getText()+"');";
                         //INSERT INTO `student` (`id`, `Name`, `Surname`, `Gender`, `Nationality`, `Programme`, `Course`, `Pathway`) VALUES (NULL, 'Test', 'TestSurname', 'M', 'UK', 'Engineer', 'SPPM01', 'M&S')
-                        JOptionPane.showMessageDialog(null, sql, "Test", JOptionPane.ERROR_MESSAGE);
+                        //JOptionPane.showMessageDialog(null, sql, "Test", JOptionPane.ERROR_MESSAGE);
                         statement.executeUpdate(sql);
+                        JOptionPane.showMessageDialog(null,"Completed Adding!","Result",JOptionPane.INFORMATION_MESSAGE);
 
                     }
                     catch (Exception ex) {
@@ -79,12 +80,12 @@ public class App {
 
                     URLtextField1.getText();
 
-                    char[] input = PassField.getPassword();
                     String passText = new String(PassField.getPassword());
-                    String url = "jdbc:mysql://"+URLtextField1.getText()+":"+PorttextField.getText()+"/college?useSSL=false&user="+UserField.getText()+"&password="+passText+"&serverTimezone=UTC";
+                    String username = UserField.getText();
+                    String url = "jdbc:mysql://"+URLtextField1.getText()+":"+PorttextField.getText()+"/college?useSSL=false&user="+username+"&password="+passText+"&serverTimezone=UTC";
                     //PassField.getPassword()
                     JOptionPane.showMessageDialog(null, "Connected!", "Connection", JOptionPane.INFORMATION_MESSAGE);
-                    String username = "root";
+
 
                     //String password = (PassField.getPassword());
                     //Class.forName(driver);
@@ -93,9 +94,10 @@ public class App {
 
                     Statement statement = conn.createStatement();
 
-                    ResultSet resultSet = statement.executeQuery("SELECT * FROM student");
+                    resultSet = statement.executeQuery("SELECT * FROM student");
                     resultSet.next();
-                    LogArea.append(resultSet.getString(1)+":"+resultSet.getString(2));
+                    printSqlTable(resultSet);
+                    //LogArea.append(resultSet.getString(1)+":"+resultSet.getString(2));
                 }
                 catch (Exception ce){
                     JOptionPane.showMessageDialog(null, ce, "Connection", JOptionPane.INFORMATION_MESSAGE);
@@ -109,31 +111,108 @@ public class App {
         findButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (searchTextField.getText().isEmpty() || searchTextField.getText().equals("Select the criteria of a search and type the according information here")) {
-                    JOptionPane.showMessageDialog(null, "You didn't type a search key!", "Error", JOptionPane.ERROR_MESSAGE);
-                    return;
+                try {
+                    if (searchTextField.getText().isEmpty() || searchTextField.getText().equals("Select the criteria of a search and type the according information here")) {
+                        JOptionPane.showMessageDialog(null, "You didn't type a search key!", "Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
+                    outInfo(radio,LogArea,searchTextField);
+//                    if (nameRadioButton.isEnabled()) {
+//                        outInfo(1, LogArea, searchTextField);
+//                    } else if (surnameRadioButton.isEnabled()) {
+//                        outInfo(2, LogArea, searchTextField);
+//                    } else if (genderRadioButton.isEnabled()) {
+//                        outInfo(3, LogArea, searchTextField);
+//                    } else if (nationalityRadioButton.isEnabled()) {
+//                        outInfo(4, LogArea, searchTextField);
+//                    } else if (programmeRadioButton.isEnabled()) {
+//                        outInfo(5, LogArea, searchTextField);
+//                    } else if (courseRadioButton.isEnabled()) {
+//                        outInfo(6, LogArea, searchTextField);
+//                    } else if (pathwayRadioButton.isEnabled()) {
+//                        outInfo(7, LogArea, searchTextField);
+//                    }
                 }
-                if (nameRadioButton.isEnabled()) {
-                    outInfo(1,LogArea,searchTextField);
+                catch (SQLException se){
+                    JOptionPane.showMessageDialog(null, se, "Test", JOptionPane.ERROR_MESSAGE);
                 }
-                else if (surnameRadioButton.isEnabled()) {
-                    outInfo(2,LogArea,searchTextField);
+            }
+        });
+        Nextbutton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) { //NextButton
+                try{
+                    if (resultSet.next())
+                        printSqlTable(resultSet);
+                    else {
+                        JOptionPane.showMessageDialog(null, "This is the last result", "Result", JOptionPane.INFORMATION_MESSAGE);
+                        resultSet.previous();
+                    }
+
                 }
-                else if (genderRadioButton.isEnabled()) {
-                    outInfo(3,LogArea,searchTextField);
+                catch (SQLException se){
+                    JOptionPane.showMessageDialog(null, se, "Test", JOptionPane.ERROR_MESSAGE);
                 }
-                else if (nationalityRadioButton.isEnabled()) {
-                    outInfo(4,LogArea,searchTextField);
+            }
+        });
+        nameRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) { //Radio Name
+                radio = 1;
+            }
+        });
+        surnameRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) { //Radio SurName
+                radio = 2;
+            }
+        });
+        previousButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) { //previous button
+                try{
+                    if (resultSet.previous())
+                        printSqlTable(resultSet);
+                    else {
+                        JOptionPane.showMessageDialog(null, "This is the last result", "Result", JOptionPane.INFORMATION_MESSAGE);
+                        resultSet.next();}
+
                 }
-                else if (programmeRadioButton.isEnabled()) {
-                    outInfo(5,LogArea,searchTextField);
+                catch (SQLException se){
+                    JOptionPane.showMessageDialog(null, se, "Test", JOptionPane.ERROR_MESSAGE);
                 }
-                else if (courseRadioButton.isEnabled()) {
-                    outInfo(6,LogArea,searchTextField);
-                }
-                else if (pathwayRadioButton.isEnabled()) {
-                    outInfo(7,LogArea,searchTextField);
-                }
+            }
+        });
+        genderRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {//gender
+                radio = 3;
+            }
+        });
+        NationalityRadio.addComponentListener(new ComponentAdapter() {
+        });
+        nationalityRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {//Nationality
+                radio = 4;
+            }
+        });
+        programmeRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {//Programme
+                radio = 5;
+            }
+        });
+        courseRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {//Course
+                radio = 6;
+            }
+        });
+        pathwayRadioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {//Pathway
+                radio = 7;
             }
         });
     }
@@ -151,85 +230,79 @@ public class App {
 
     }
 
-    public void outInfo(int a, JTextArea LogArea, JTextField searchTextField) {
-        switch (a) {
-            case 1:     // name
-                LogArea.setText("");
-                String name = searchTextField.getText();
-                int i = 1;
-                for (Student st:college.students) {
-                    if(st.getName().equals(name)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 3:
-                LogArea.setText("");
-                String gender = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getGender().equals(gender)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 2:     // surname
-                LogArea.setText("");
-                String surname = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getSurname().equals(surname)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 4:     //nationality
-                LogArea.setText("");
-                String nationality = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getNationality().equals(nationality)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 5:     // programme
-                LogArea.setText("");
-                String programme = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getProgramme().equals(programme)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 6:     // course
-                LogArea.setText("");
-                String course = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getCourse().equals(course)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
-            case 7:     // pathway
-                LogArea.setText("");
-                String pathway = searchTextField.getText();
-                i = 1;
-                for (Student st:college.students) {
-                    if(st.getPathway().equals(pathway)) {
-                        this.printTable(st, i);
-                        i++;
-                    }
-                }
-                break;
+    public void outInfo(int a, JTextArea LogArea, JTextField searchTextField) throws SQLException{
+        try {
+            int i = 1;
+            String sqlcolumn;
+            Statement statement = conn.createStatement();
+            String text = searchTextField.getText();
+            switch (a) {
+                case 1:     // name
+                    LogArea.setText("");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE Name LIKE \"%"+text+"%\"");
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    break;
+                case 3:
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE GENDER LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+                case 2:     // surname
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+                case 4:     //nationality
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE NATIONALITY LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+                case 5:     // programme
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE Programme LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+                case 6:     // course
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE COURSE LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+                case 7:     // pathway
+                    LogArea.setText("");
+                    text = searchTextField.getText();
+                    //LogArea.append("SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"");
+                    resultSet = statement.executeQuery("SELECT * FROM `student` WHERE PATHWAY LIKE \"%"+text+"%\"");
+                    //JOptionPane.showMessageDialog(null, "SELECT * FROM `student` WHERE SURNAME LIKE \"%"+text+"%\"", "Connection", JOptionPane.INFORMATION_MESSAGE);
+                    resultSet.next();
+                    printSqlTable(resultSet);
+                    break;
+            }
+        }
+        catch (SQLException e)
+        {
+            JOptionPane.showMessageDialog(null, e, "Test", JOptionPane.ERROR_MESSAGE);
         }
     }
 
@@ -242,5 +315,22 @@ public class App {
         LogArea.append("Programme: " + st.getProgramme() + "\n");
         LogArea.append("Course: " + st.getCourse() + "\n");
         LogArea.append("Pathway: " + st.getPathway() + "\n\n");
+    }
+    public void printSqlTable(ResultSet rs) {
+        LogArea.setText("");
+        try {
+            LogArea.append("# " + rs.getString(1) + "\n");
+            LogArea.append("Name: " + rs.getString(2) + "\n");
+            LogArea.append("Surname: " + rs.getString(3) +"\n");
+            LogArea.append("GENDER: " + rs.getString(4) + "\n");
+            LogArea.append("Nationality: " + rs.getString(5) + "\n");
+            LogArea.append("Programme: " + rs.getString(6) + "\n");
+            LogArea.append("Course: " + rs.getString(7) + "\n");
+            LogArea.append("Pathway: " + rs.getString(8) + "\n\n");
+        }
+        catch (SQLException SQLe)
+        {
+            JOptionPane.showMessageDialog(null, SQLe, "Connection", JOptionPane.INFORMATION_MESSAGE);
+        }
     }
 }
