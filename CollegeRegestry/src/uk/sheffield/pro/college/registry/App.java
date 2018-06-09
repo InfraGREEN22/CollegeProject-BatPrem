@@ -2,6 +2,7 @@ package uk.sheffield.pro.college.registry;
 
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.*;
 import java.sql.*;
 
 public class App {
@@ -33,10 +34,14 @@ public class App {
     private JButton Nextbutton;
     private JButton previousButton;
     private JLabel NationalityRadio;
+    private JButton reportButton;
+    private JTextField reportPath;
     private Connection conn;
-        public int radio;
+    public int radio;
+
     private static College college;
     public ResultSet resultSet;
+
     public App() {
         addStudentButton.addActionListener(new ActionListener() {
             @Override
@@ -215,6 +220,43 @@ public class App {
                 radio = 7;
             }
         });
+        reportPath.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                reportPath.setText("");
+            }
+        });
+        reportButton.addActionListener(new ActionListener() { // Create a report
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String path = reportPath.getText();
+                try {
+                    File dir = new File(path);
+                    dir.mkdir();
+                }
+                catch (Exception we) {
+                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                }
+                File file = new File(path + "/StudentRegistry.txt");
+                try {
+                    file.createNewFile();
+                }
+                catch (IOException we) {
+                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                }
+                StringBuilder sb2 = new StringBuilder("------------------------------------------------------------------------"+System.lineSeparator());
+
+                String data = sb2.toString();
+                try (BufferedWriter writer = new BufferedWriter(new FileWriter(file));)
+                {
+                    writer.write(data);
+                }
+                catch (IOException we){
+                    System.out.println("Something went wrong. Please try running the application again.");
+                }
+            }
+        });
     }
 
     public static void main(String[] args) {
@@ -225,7 +267,7 @@ public class App {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
-        frame.setSize(700, 600);
+        frame.setSize(700, 700);
         frame.setResizable(false);
 
     }
