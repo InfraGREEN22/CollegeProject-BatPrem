@@ -237,22 +237,27 @@ public class App {
                     if(path.equals("TYPE IN HERE THE FINAL PATH FOR THE REPORT") || path.equals("")) {
                         path = "C://StudentsRegistry";
                         File dir = new File(path);
-                        dir.mkdir();
+                        if (!dir.exists())
+                            dir.mkdir();
                     }
                     else {
                         File dir = new File(path);
-                        dir.mkdir();
+                        if (!dir.exists())
+                            dir.mkdir();
                     }
                 }
                 catch (Exception we) {
-                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a directory! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 File file = new File(path + "/StudentRegistry.txt");
                 try {
-                    file.createNewFile();
+                    if(file.exists()) {
+                        file.delete();
+                        file.createNewFile();
+                    }
                 }
                 catch (IOException we) {
-                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a file! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 StringBuilder sb2 = new StringBuilder("------------------------------------------------------------------------"+System.lineSeparator());
                 try {
@@ -269,7 +274,7 @@ public class App {
                     }
                 }
                 catch (SQLException we) {
-                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Something went wrong when getting the information from the database! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 String data = sb2.toString();
                 try (BufferedWriter writer = new BufferedWriter(new FileWriter(file));)
@@ -277,7 +282,7 @@ public class App {
                     writer.write(data);
                 }
                 catch (IOException we){
-                    System.out.println("Something went wrong. Please try running the application again.");
+                    JOptionPane.showMessageDialog(null, "Something went wrong when writing into the file! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });

@@ -57,7 +57,7 @@
             <constraints/>
             <properties>
               <font name="Arial Black" size="16" style="1"/>
-              <text value="College Registry System v 2.0"/>
+              <text value="College Registry System v 3.0"/>
             </properties>
           </component>
         </children>
