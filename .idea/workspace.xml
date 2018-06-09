@@ -19,8 +19,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="238" column="31" lean-forward="true" selection-start-line="238" selection-start-column="31" selection-end-line="238" selection-end-column="31" />
+            <state relative-caret-position="-289">
+              <caret line="248" column="26" lean-forward="true" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8017#8018#0" expanded="true" />
@@ -40,15 +40,15 @@
                 <element signature="e#10152#10350#0" expanded="true" />
                 <element signature="e#10349#10350#0" expanded="true" />
                 <element signature="method#outInfo#0;class#App#0" expanded="false" />
-                <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-                <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-                <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+                <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+                <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/College.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -111,7 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -162,9 +162,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11/mysql-connector-java-8.0.11.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
@@ -315,15 +315,15 @@
       <workItem from="1527602833195" duration="850000" />
       <workItem from="1527603730092" duration="8033000" />
       <workItem from="1527698805603" duration="3303000" />
-      <workItem from="1528565169081" duration="6424000" />
+      <workItem from="1528565169081" duration="7880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34351000" />
+    <option name="totallyTimeSpent" value="35807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -420,15 +420,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -469,15 +469,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -518,15 +518,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -567,15 +567,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -616,15 +616,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -665,15 +665,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -714,15 +714,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -763,15 +763,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -812,15 +812,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -861,15 +861,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -911,15 +911,15 @@
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/College.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="238" column="31" lean-forward="true" selection-start-line="238" selection-start-column="31" selection-end-line="238" selection-end-column="31" />
+        <state relative-caret-position="-289">
+          <caret line="248" column="26" lean-forward="true" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8017#8018#0" expanded="true" />
@@ -939,15 +939,15 @@
             <element signature="e#10152#10350#0" expanded="true" />
             <element signature="e#10349#10350#0" expanded="true" />
             <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528571781538" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528571781538" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="15445:15499" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16055:16111" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="16682:16739" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17313:17374" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="17947:18006" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="18576:18632" ph="SELECT * FRO... student" />
-            <marker date="1528571781538" expanded="true" signature="19203:19260" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
+            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -1009,7 +1009,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
