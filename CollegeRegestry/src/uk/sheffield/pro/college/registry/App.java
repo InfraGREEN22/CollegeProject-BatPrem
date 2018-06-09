@@ -234,6 +234,10 @@ public class App {
                 try {
                     path = path.trim();
                     path = path.toUpperCase();
+                    if (path.endsWith(".TXT")) {
+                        JOptionPane.showMessageDialog(null, "Looks like you are trying to create a .txt file. Type in just a pathway!", "Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
                     if(path.equals("TYPE IN HERE THE FINAL PATH FOR THE REPORT") || path.equals("")) {
                         path = "C://StudentsRegistry";
                         File dir = new File(path);
@@ -251,7 +255,7 @@ public class App {
                     }
                 }
                 catch (Exception we) {
-                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a directory! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a directory! Please try again!", "Directory creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 File file = new File(path + "/StudentRegistry.txt");
                 try {
@@ -261,7 +265,7 @@ public class App {
                     }
                 }
                 catch (IOException we) {
-                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a file! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Something went wrong when creating a file! Please try again!", "File creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 StringBuilder sb2 = new StringBuilder("------------------------------------------------------------------------"+System.lineSeparator());
                 try {
