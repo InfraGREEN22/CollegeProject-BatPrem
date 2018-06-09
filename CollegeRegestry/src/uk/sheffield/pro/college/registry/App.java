@@ -237,13 +237,17 @@ public class App {
                     if(path.equals("TYPE IN HERE THE FINAL PATH FOR THE REPORT") || path.equals("")) {
                         path = "C://StudentsRegistry";
                         File dir = new File(path);
-                        if (!dir.exists())
+                        if (!dir.exists()) {
                             dir.mkdir();
+                            JOptionPane.showMessageDialog(null, "As there was no changes or the path was empty, the default directory " + path + " has been successfully created!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                        }
                     }
                     else {
                         File dir = new File(path);
-                        if (!dir.exists())
+                        if (!dir.exists()) {
                             dir.mkdir();
+                            JOptionPane.showMessageDialog(null, "The directory " + path + " has been successfully created!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                        }
                     }
                 }
                 catch (Exception we) {
