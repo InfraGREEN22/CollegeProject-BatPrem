@@ -232,8 +232,17 @@ public class App {
             public void actionPerformed(ActionEvent e) {
                 String path = reportPath.getText();
                 try {
-                    File dir = new File(path);
-                    dir.mkdir();
+                    path = path.trim();
+                    path = path.toUpperCase();
+                    if(path.equals("TYPE IN HERE THE FINAL PATH FOR THE REPORT") || path.equals("")) {
+                        path = "C://StudentsRegistry";
+                        File dir = new File(path);
+                        dir.mkdir();
+                    }
+                    else {
+                        File dir = new File(path);
+                        dir.mkdir();
+                    }
                 }
                 catch (Exception we) {
                     JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
@@ -246,7 +255,22 @@ public class App {
                     JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
                 }
                 StringBuilder sb2 = new StringBuilder("------------------------------------------------------------------------"+System.lineSeparator());
-
+                try {
+                    while (resultSet.next()) {
+                        sb2.append("# " + resultSet.getString(1) + System.lineSeparator());
+                        sb2.append("Name: " + resultSet.getString(2) + System.lineSeparator());
+                        sb2.append("Surname: " + resultSet.getString(3) + System.lineSeparator());
+                        sb2.append("GENDER: " + resultSet.getString(4) + System.lineSeparator());
+                        sb2.append("Nationality: " + resultSet.getString(5) + System.lineSeparator());
+                        sb2.append("Programme: " + resultSet.getString(6) + System.lineSeparator());
+                        sb2.append("Course: " + resultSet.getString(7) + System.lineSeparator());
+                        sb2.append("Pathway: " + resultSet.getString(8) + System.lineSeparator());
+                        sb2.append("------------------------------------------------------------------------" + System.lineSeparator());
+                    }
+                }
+                catch (SQLException we) {
+                    JOptionPane.showMessageDialog(null, "Something went wrong! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
+                }
                 String data = sb2.toString();
                 try (BufferedWriter writer = new BufferedWriter(new FileWriter(file));)
                 {
