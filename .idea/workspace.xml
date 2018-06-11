@@ -19,8 +19,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="248" column="26" lean-forward="true" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
+            <state relative-caret-position="-1950">
+              <caret line="288" column="17" lean-forward="true" selection-start-line="288" selection-start-column="17" selection-end-line="288" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8017#8018#0" expanded="true" />
@@ -37,18 +37,15 @@
                 <element signature="e#9893#9894#0" expanded="true" />
                 <element signature="e#10052#10053#0" expanded="true" />
                 <element signature="e#10102#10103#0" expanded="true" />
-                <element signature="e#10152#10350#0" expanded="true" />
-                <element signature="e#10349#10350#0" expanded="true" />
-                <element signature="method#outInfo#0;class#App#0" expanded="false" />
-                <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-                <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-                <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+                <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+                <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
               </folding>
             </state>
           </provider>
@@ -57,7 +54,7 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="17">
               <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="70" />
               <folding />
             </state>
@@ -67,8 +64,8 @@
       <file leaf-file-name="College.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/College.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -89,6 +86,7 @@
       <find>resu</find>
       <find>next</find>
       <find>college</find>
+      <find>addSt</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -131,6 +129,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,9 +155,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,12 +313,13 @@
       <workItem from="1527602833195" duration="850000" />
       <workItem from="1527603730092" duration="8033000" />
       <workItem from="1527698805603" duration="3303000" />
-      <workItem from="1528565169081" duration="7880000" />
+      <workItem from="1528565169081" duration="8070000" />
+      <workItem from="1528627900404" duration="6660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35807000" />
+    <option name="totallyTimeSpent" value="42657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -333,9 +332,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -345,8 +345,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39215687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -417,26 +417,31 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/College.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -466,30 +471,59 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8017#8018#0" expanded="true" />
+            <element signature="e#8071#8072#0" expanded="true" />
+            <element signature="e#8230#8231#0" expanded="true" />
+            <element signature="e#8287#8288#0" expanded="true" />
+            <element signature="e#9124#9125#0" expanded="true" />
+            <element signature="e#9173#9174#0" expanded="true" />
+            <element signature="e#9419#9420#0" expanded="true" />
+            <element signature="e#9473#9474#0" expanded="true" />
+            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="e#9686#9687#0" expanded="true" />
+            <element signature="e#9844#9845#0" expanded="true" />
+            <element signature="e#9893#9894#0" expanded="true" />
+            <element signature="e#10052#10053#0" expanded="true" />
+            <element signature="e#10102#10103#0" expanded="true" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -515,18 +549,15 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
@@ -536,14 +567,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -564,79 +588,20 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8017#8018#0" expanded="true" />
-            <element signature="e#8071#8072#0" expanded="true" />
-            <element signature="e#8230#8231#0" expanded="true" />
-            <element signature="e#8287#8288#0" expanded="true" />
-            <element signature="e#9124#9125#0" expanded="true" />
-            <element signature="e#9173#9174#0" expanded="true" />
-            <element signature="e#9419#9420#0" expanded="true" />
-            <element signature="e#9473#9474#0" expanded="true" />
-            <element signature="e#9634#9635#0" expanded="true" />
-            <element signature="e#9686#9687#0" expanded="true" />
-            <element signature="e#9844#9845#0" expanded="true" />
-            <element signature="e#9893#9894#0" expanded="true" />
-            <element signature="e#10052#10053#0" expanded="true" />
-            <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -662,30 +627,20 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -711,30 +666,20 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -760,30 +705,20 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -809,30 +744,20 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -858,30 +783,59 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8017#8018#0" expanded="true" />
+            <element signature="e#8071#8072#0" expanded="true" />
+            <element signature="e#8230#8231#0" expanded="true" />
+            <element signature="e#8287#8288#0" expanded="true" />
+            <element signature="e#9124#9125#0" expanded="true" />
+            <element signature="e#9173#9174#0" expanded="true" />
+            <element signature="e#9419#9420#0" expanded="true" />
+            <element signature="e#9473#9474#0" expanded="true" />
+            <element signature="e#9634#9635#0" expanded="true" />
+            <element signature="e#9686#9687#0" expanded="true" />
+            <element signature="e#9844#9845#0" expanded="true" />
+            <element signature="e#9893#9894#0" expanded="true" />
+            <element signature="e#10052#10053#0" expanded="true" />
+            <element signature="e#10102#10103#0" expanded="true" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -892,34 +846,35 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Student.java">
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="-275">
+          <caret line="1144" column="12" lean-forward="false" selection-start-line="1144" selection-start-column="12" selection-end-line="1144" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/College.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CollegeRegestry/src/uk/sheffield/pro/college/registry/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="248" column="26" lean-forward="true" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
+        <state relative-caret-position="-1950">
+          <caret line="288" column="17" lean-forward="true" selection-start-line="288" selection-start-column="17" selection-end-line="288" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8017#8018#0" expanded="true" />
@@ -936,18 +891,15 @@
             <element signature="e#9893#9894#0" expanded="true" />
             <element signature="e#10052#10053#0" expanded="true" />
             <element signature="e#10102#10103#0" expanded="true" />
-            <element signature="e#10152#10350#0" expanded="true" />
-            <element signature="e#10349#10350#0" expanded="true" />
-            <element signature="method#outInfo#0;class#App#0" expanded="false" />
-            <marker date="1528572583298" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
-            <marker date="1528572583298" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="15448:15502" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16058:16114" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="16685:16742" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17316:17377" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="17950:18009" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="18579:18635" ph="SELECT * FRO... student" />
-            <marker date="1528572583298" expanded="true" signature="19206:19263" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="2432:2790" ph="INSERT INTO `student`... " />
+            <marker date="1528629107396" expanded="true" signature="4901:4922" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="15686:15740" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16296:16352" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="16923:16980" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="17554:17615" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18188:18247" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="18817:18873" ph="SELECT * FRO... student" />
+            <marker date="1528629107396" expanded="true" signature="19444:19501" ph="SELECT * FRO... student" />
           </folding>
         </state>
       </provider>

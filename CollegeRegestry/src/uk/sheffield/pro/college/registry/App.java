@@ -230,7 +230,8 @@ public class App {
         reportButton.addActionListener(new ActionListener() { // Create a report
             @Override
             public void actionPerformed(ActionEvent e) {
-                String path = reportPath.getText();
+                String path = "";
+                path = reportPath.getText();
                 try {
                     path = path.trim();
                     path = path.toUpperCase();
@@ -250,7 +251,7 @@ public class App {
                         File dir = new File(path);
                         if (!dir.exists()) {
                             dir.mkdir();
-                            JOptionPane.showMessageDialog(null, "The directory " + path + " has been successfully created!", "Success", JOptionPane.INFORMATION_MESSAGE);
+                            //JOptionPane.showMessageDialog(null, "The directory " + path + " has been successfully created!", "Success", JOptionPane.INFORMATION_MESSAGE);
                         }
                     }
                 }
@@ -262,6 +263,7 @@ public class App {
                     if(file.exists()) {
                         file.delete();
                         file.createNewFile();
+                        JOptionPane.showMessageDialog(null, "The output file " + file + " has been successfully created!", "Success", JOptionPane.INFORMATION_MESSAGE);
                     }
                 }
                 catch (IOException we) {
@@ -269,7 +271,8 @@ public class App {
                 }
                 StringBuilder sb2 = new StringBuilder("------------------------------------------------------------------------"+System.lineSeparator());
                 try {
-                     do{
+                    resultSet.first();
+                     do {
                         sb2.append("# " + resultSet.getString(1) + System.lineSeparator());
                         sb2.append("Name: " + resultSet.getString(2) + System.lineSeparator());
                         sb2.append("Surname: " + resultSet.getString(3) + System.lineSeparator());
@@ -279,7 +282,7 @@ public class App {
                         sb2.append("Course: " + resultSet.getString(7) + System.lineSeparator());
                         sb2.append("Pathway: " + resultSet.getString(8) + System.lineSeparator());
                         sb2.append("------------------------------------------------------------------------" + System.lineSeparator());
-                    }while (resultSet.next());
+                    } while (resultSet.next());
                 }
                 catch (SQLException we) {
                     JOptionPane.showMessageDialog(null, "Something went wrong when getting the information from the database! Please try again!", "Report creating error", JOptionPane.ERROR_MESSAGE);
