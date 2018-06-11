@@ -62,7 +62,13 @@ public class App {
                         //JOptionPane.showMessageDialog(null, sql, "Test", JOptionPane.ERROR_MESSAGE);
                         statement.executeUpdate(sql);
                         JOptionPane.showMessageDialog(null,"Completed Adding!","Result",JOptionPane.INFORMATION_MESSAGE);
-
+                        surnameTexField.setText("");
+                        nameTextField.setText("");
+                        genderTextField.setText("");
+                        pathwayTextField.setText("");
+                        nationalityTextField.setText("");
+                        programmeTextField.setText("");
+                        courseTextField.setText("");
                     }
                     catch (Exception ex) {
                         JOptionPane.showMessageDialog(null, ex, "Error", JOptionPane.ERROR_MESSAGE);
